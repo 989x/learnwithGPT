@@ -1,3 +1,5 @@
+// const mongoose = require('mongoose')
+
 const buildApp = require('./src/app')
 
 const startApp = async () => {

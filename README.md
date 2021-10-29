@@ -13,3 +13,18 @@ $ npm i -S fastify
 ```bash
 $ npm i -D nodemon 
 ```
+
+```bash
+$ npm i -S mongoose 
+```
+
+```bash
+$ npm i -S bcrypt 
+```
+## fig database mongodb
+
+```bash
+$ docker run --name mongo -p27017:27017 -d mongo
+
+```
+
