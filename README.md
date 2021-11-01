@@ -25,6 +25,28 @@ $ npm i -S bcrypt
 
 ```bash
 $ docker run --name mongo -p27017:27017 -d mongo
-
 ```
 
+## insert mongodb
+# post
+```bash
+$ curl -H "Content-Type: application/json" --data '{"username":"IOsonoTAN", "password": "12345", "name": "Krissade", "surname": "Boontrigratn"}' http://localhost:3000/users
+```
+
+## get
+http://localhost:3000/users
+
+# patch
+```bash
+$ curl --request PATCH -H "Content-Type: application/json" --data '{"name": "First Name", "surname": "Last Name", "userId": "617f9bc7617f2e1df04e9dd7"}' http://localhost:3000/users
+```
+# delete
+```bash
+$ curl --request DELETE -H "Content-Type: application/json" --data '{"userId": "617f9bc7617f2e1df04e9dd7"}' http://localhost:3000/users
+```
+ 
+ ## ep 5
+
+ Create API Login on Node.js that so easy! and get JWT Token to verify identity, How?
+
+https://www.youtube.com/watch?v=knZBSIXoVLE&list=PLKu89HRrYLaqUetwXo9pKUUI1gXZenplJ&index=6

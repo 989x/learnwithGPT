@@ -1,29 +1,40 @@
 const userModel = require('../models/Users/Users')
 
 const getUsers = async (request, reply) => {
-    // const users = await userModel.getUsers()
-    // reply.send(users)
-    reply.send('getUser')
+    const users = await userModel.getUsers()
+    reply.send(users)
 }
 
 const getUserById = async (request, reply) => {
-    reply.send('getUserById')
+    const { userId } = request.params
+    const user = await userModel.getUserById(userId)
+    reply.send(user)
 }
 
 const postUser = async (request, reply) => {
     const { body } = request
     const user = await userModel.createNewUser(body)
-    reply.send('postUser')
-}
-
-const patchUser = async (request, reply) => {
-    // const { body } = request
-    // const user = await userModel.createNewUser(body)
     reply.send(user)
 }
 
+const patchUser = async (request, reply) => {
+   const {
+       userId,
+       name,
+       surname
+   } = request.body
+
+   const updateUser = await userModel.updateUserById(userId, {
+       name,
+       surname
+   })
+    reply.send(updateUser)
+}
+
 const deleteUser = async (request, reply) => {
-    reply.send('deleteUser') 
+    const { userId } = request.body
+    const result = await userModel.deleteUserById(userId)
+    reply.send(result) 
 }
 
 module.exports = {

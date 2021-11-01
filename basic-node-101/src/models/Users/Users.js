@@ -25,7 +25,34 @@ const getUsers = async () => {
     return users
 }
 
+const getUserById = async (userId) => {
+    const user = await Users.findById(userId)
+    
+    return user
+}
+
+const updateUserById = async (userId, doc) => {
+    const updatedUser = await Users.updateOne({
+        _id: userId
+    }, doc, {
+        returenOriginal: false
+    })
+
+    return updatedUser
+}
+
+const deleteUserById = async (userId) => {
+    const deletedUser = await Users.remove({
+        _id: userId
+    })
+
+    return deletedUser
+}
+
 module.exports = {
     createNewUser,
-    getUsers
+    getUsers,
+    getUserById,
+    updateUserById,
+    deleteUserById
 }
