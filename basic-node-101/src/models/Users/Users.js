@@ -1,4 +1,5 @@
 const bcrypt = require('bcrypt')
+
 const Users = require('./schema')
 
 const generatePassword = async (password) => {
@@ -7,6 +8,16 @@ const generatePassword = async (password) => {
     const passwordHashed = await bcrypt.hash(password, salt)
 
     return passwordHashed
+}
+
+const comparePassword = async (password, exisitsPassword) => {
+    const isPasswordCorrect = await bcrypt.compare(password, exisitsPassword)
+
+    if (!isPasswordCorrect){
+        throw new Error('unauthorized')
+    }
+
+    return true
 }
 
 const createNewUser = async (doc = {}) => {
@@ -49,10 +60,30 @@ const deleteUserById = async (userId) => {
     return deletedUser
 }
 
+const loginUser = async (username, password) => {
+    const user = await Users.findOne({
+        username
+    })
+
+    if (!user) {
+        throw new Error('unauthorized')
+    }
+
+    await comparePassword(password, user.password)
+
+    /**
+     * 
+     */
+
+    
+    return true
+}
+
 module.exports = {
     createNewUser,
     getUsers,
     getUserById,
     updateUserById,
-    deleteUserById
+    deleteUserById,
+    loginUser
 }

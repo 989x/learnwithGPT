@@ -8,6 +8,8 @@ const userRoutes = (app) => {
     app.post('/users', controllers.users.postUser)
     app.patch('/users', controllers.users.patchUser)
     app.delete('/users', controllers.users.deleteUser)
+
+    app.post('/login', controllers.users.postUserLogin)
     
 }
 
