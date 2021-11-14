@@ -6,7 +6,8 @@ const config = {
     mongodb: {
         uri: 'mongodb://localhost/basic101'
         // uri: process.env.MONGO_URI || 'mogodb://localhost/basic101'
-    }
+    },
+    secretKey: process.env.SECRET_KEY
 }
 
 module.exports = config

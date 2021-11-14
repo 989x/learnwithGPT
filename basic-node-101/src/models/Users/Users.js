@@ -1,6 +1,7 @@
 const bcrypt = require('bcrypt')
-
+const jwt = require('jsonwebtoken')
 const Users = require('./schema')
+const config = require('../../config')
 
 const generatePassword = async (password) => {
     const saltRound = 10
@@ -71,12 +72,12 @@ const loginUser = async (username, password) => {
 
     await comparePassword(password, user.password)
 
-    /**
-     * 
-     */
-
-    
-    return true
+    const token = jwt.sign({
+        id: user._id
+    }, config.secretKey, {
+        expiresIn: 60
+    })
+    return token
 }
 
 module.exports = {

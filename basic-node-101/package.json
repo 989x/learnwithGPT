@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "MONGO_URI='mongodb+srv://admin:clDBilhMcEuFfzXl@cluster0.dyawt.mongodb.net/basic101' nodemon index.js"
+    "dev": "SECRET_KEY=123456 MONGO_URI='mongodb+srv://admin:clDBilhMcEuFfzXl@cluster0.dyawt.mongodb.net/basic101' nodemon index.js"
   },
   "keywords": [],
   "author": "",
