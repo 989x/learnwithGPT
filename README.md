@@ -14,4 +14,6 @@
         - straegy
     - law
 - [**seo**](https://github.com/SinsamutQ/chatGPT-mentor/tree/main/seo)
-
+- [**resea-app**](https://github.com/SinsamutQ/chatGPT-mentor/tree/main/resea-app)
+    - hosting-plan
+    - pricing-plan
