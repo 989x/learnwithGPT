@@ -1,4 +1,4 @@
-> change all to table 
+> change all to table, must having agoda airbnb booking
 ### planing
 
 airbnb hosting
