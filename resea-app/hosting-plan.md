@@ -11,6 +11,11 @@ airbnb hosting/listing
 
 <img width="600" alt="Screen Shot 2566-06-13 at 11 34 51" src="https://github.com/989x/learnwithGPT/assets/73060136/96dd2135-1788-440e-8bf4-6c4bf64adfc5">
 
+airbnb listing
+
+How to Set Up Airbnb Host Account, 2023 Walkthrough | Listing Your Property on Airbnb for Beginners
+- https://www.youtube.com/watch?v=1dBmbAYGtQE
+
 ### guideline create-app
 
 Build Online Real Estate Marketplace | Real Estate App Development | Real Estate Website - Live Demo
