@@ -6,14 +6,12 @@
 - [**advance**](https://github.com/SinsamutQ/chatGPT-mentor/tree/main/advance)
     - awesomegptprompts
     - scrapingGPT
-- [**ask**](https://github.com/SinsamutQ/chatGPT-mentor/tree/main/ask)
-    - human-job
-- [**markting-estate**](https://github.com/SinsamutQ/chatGPT-mentor/tree/main/markting-estate)
+- [**asked**](https://github.com/SinsamutQ/chatGPT-mentor/tree/main/asked)
+    - ...
+- [**estatemarket**](https://github.com/SinsamutQ/chatGPT-mentor/tree/main/estatemarket)
     - blog
     - seo
     - strategy
-- [**resea-app**](https://github.com/SinsamutQ/chatGPT-mentor/tree/main/resea-app)
+- [**researching**](https://github.com/SinsamutQ/chatGPT-mentor/tree/main/researching)
     - hosting-plan
     - pricing-plan
-- [**resea-app-code**](https://github.com/SinsamutQ/chatGPT-mentor/tree/main/resea-app-code)
-    - a
