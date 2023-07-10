@@ -8,7 +8,7 @@
     - scrapingGPT
 - [**asked**](https://github.com/SinsamutQ/chatGPT-mentor/tree/main/asked)
     - ...
-- [**estatemarket**](https://github.com/SinsamutQ/chatGPT-mentor/tree/main/estatemarket)
+- [**marketing**](https://github.com/SinsamutQ/chatGPT-mentor/tree/main/marketing)
     - blog
     - seo
     - strategy
