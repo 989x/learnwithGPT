@@ -12,7 +12,8 @@
     - blog
     - seo
     - strategy
-- [**research**](https://github.com/SinsamutQ/chatGPT-mentor/tree/main/research)
-    - hosting-plan
-    - pricing-plan
-    - world-wide
+- [**research-estate**](https://github.com/SinsamutQ/chatGPT-mentor/tree/main/research-estate)
+    - hosting-plan.md
+    - pricing-plan.md
+- [**research-more**](https://github.com/SinsamutQ/chatGPT-mentor/tree/main/research-more)
+    - world-wide.md
