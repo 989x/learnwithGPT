@@ -3,17 +3,16 @@
 </p>
 
 ### 目录
-- [**advance**](https://github.com/SinsamutQ/chatGPT-mentor/tree/main/advance)
+- [**chatgpt**](https://github.com/SinsamutQ/chatGPT-mentor/tree/main/chatgpt)
     - awesomegptprompts
-    - scrapingGPT
-- [**asked**](https://github.com/SinsamutQ/chatGPT-mentor/tree/main/asked)
-    - ...
+    - question
+    - scraping
 - [**marketing**](https://github.com/SinsamutQ/chatGPT-mentor/tree/main/marketing)
     - blog
     - seo
-    - strategy
-- [**research-estate**](https://github.com/SinsamutQ/chatGPT-mentor/tree/main/research-estate)
-    - hosting-plan.md
-    - pricing-plan.md
-- [**research-more**](https://github.com/SinsamutQ/chatGPT-mentor/tree/main/research-more)
-    - world-wide.md
+- [**research**](https://github.com/SinsamutQ/chatGPT-mentor/tree/main/research)
+    - proptech
+    - world-wide
+- [**securing**](https://github.com/SinsamutQ/chatGPT-mentor/tree/main/securing)
+    - backend
+    - frontend
