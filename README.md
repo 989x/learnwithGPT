@@ -11,6 +11,7 @@
     - blog
     - seo
 - [**research**](https://github.com/SinsamutQ/chatGPT-mentor/tree/main/research)
+    - privacy-policy
     - proptech
     - world-wide
 - [**securing**](https://github.com/SinsamutQ/chatGPT-mentor/tree/main/securing)
