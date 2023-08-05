@@ -4,16 +4,18 @@
 
 ### 目录
 - [**chatgpt**](https://github.com/SinsamutQ/chatGPT-mentor/tree/main/chatgpt)
-    - awesomegptprompts
     - question
     - scraping
+    - upgrade
+- [**contact**](https://github.com/SinsamutQ/chatGPT-mentor/tree/main/contact)
+    - email.md
 - [**marketing**](https://github.com/SinsamutQ/chatGPT-mentor/tree/main/marketing)
     - blog
     - seo
-- [**research**](https://github.com/SinsamutQ/chatGPT-mentor/tree/main/research)
-    - privacy-policy
+- [**privacy-policy**](https://github.com/SinsamutQ/chatGPT-mentor/tree/main/privacy-policy)
+    - healthtech
     - proptech
-    - world-wide
-- [**securing**](https://github.com/SinsamutQ/chatGPT-mentor/tree/main/securing)
-    - backend
-    - frontend
+- [**research**](https://github.com/SinsamutQ/chatGPT-mentor/tree/main/research)
+    - healthtech
+    - proptech
+    - worldwide
