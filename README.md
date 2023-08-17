@@ -19,3 +19,5 @@
     - healthtech
     - proptech
     - worldwide
+- [**searching**](https://github.com/SinsamutQ/chatGPT-mentor/tree/main/searching)
+    - ...
