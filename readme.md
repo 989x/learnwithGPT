@@ -9,7 +9,8 @@ Welcome to the workspace hub! This repository hosts various projects and documen
 In this workspace, Business encompasses various aspects related to business operations.
 
 #### [**contact**](https://github.com/user123/workspace/tree/main/business/contact)
-- email.md
+- hr
+- product
 
 #### [**planing**](https://github.com/user123/workspace/tree/main/business/planing)
 - blog
